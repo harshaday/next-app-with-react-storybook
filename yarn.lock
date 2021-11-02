@@ -5043,10 +5043,10 @@
     "neo-async" "^2.6.1"
     "object-assign" "^4.1.1"
 
-"react-storybook-ui-app@^0.2.2":
-  "integrity" "sha512-c3LHRdFNOBQjBkjeNYLukGQk3QfLr3DDZGYcUvpCkqJzPmTeajjp7yY/LCf5Lv+IDeJTAnmuMirTNRUhMSJeig=="
-  "resolved" "https://registry.npmjs.org/react-storybook-ui-app/-/react-storybook-ui-app-0.2.2.tgz"
-  "version" "0.2.2"
+"react-storybook-ui-app@^0.2.3":
+  "integrity" "sha512-wWBHqJxqP2C1hCX2GIqZVyHRKQQjq0pk9w18y9v2GyXimzruuO5sFpHJsUbJzTnm1Hho26C0MryTKoaNz8M4zQ=="
+  "resolved" "https://registry.npmjs.org/react-storybook-ui-app/-/react-storybook-ui-app-0.2.3.tgz"
+  "version" "0.2.3"
 
 "react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^17.0.2", "react@^17.0.2 || ^18.0.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@>=15", "react@0.0.0-experimental-3c4c1c470-20211021", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="

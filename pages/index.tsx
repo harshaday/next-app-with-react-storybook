@@ -25,17 +25,6 @@ const Home = () => (
         />
       </a>
     </Link>
-    {/* <Button label="Next" primary={true} />
-    <Button 
-            label="See All Posts" backgroundColor="#e94c5b" color="#fff" 
-        />
-         <StoryImage url='https://picsum.photos/300/200' height='300' width='200' altText="img" /> 
-
-        <StoryCard 
-           imageUrl='https://source.unsplash.com/collection/190727/700x400'
-           title='qui est esse'
-           cardBody='quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto'
-           cardType='postDetail' /> */}
   </div>
 );
 export default Home;
