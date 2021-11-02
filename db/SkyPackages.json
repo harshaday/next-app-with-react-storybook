@@ -12,11 +12,11 @@
     },
     {
       "id": 2,
-      "title": "Entertainment plus",
+      "title": "Entertainment Plus",
       "body": [
-        "Exclusive top series from Sky and HBO",
-        "Large selection of complete series and documentation available on demand at any time",
-        "New Sky Originals every month"
+        "Expand your entertainment package with Netflix - at a special price",
+        "Including Netflix standard subscription",
+        "Already a Netflix customer? Just take your existing Netflix account with you"
       ],
       "imgSrc": "/images/entertainmentPlus.jpeg"
     },
@@ -24,9 +24,9 @@
       "id": 3,
       "title": "Cinema",
       "body": [
-        "Exclusive top series from Sky and HBO",
-        "Large selection of complete series and documentation available on demand at any time",
-        "New Sky Originals every month"
+        "Exclusive top films first on Sky",
+        "Great variety of films across all genres",
+        "All films without commercial breaks"
       ],
       "imgSrc": "/images/tomjerry2.jpg"
     },
@@ -34,9 +34,9 @@
       "id": 4,
       "title": "Football",
       "body": [
-        "Exclusive top series from Sky and HBO",
-        "Large selection of complete series and documentation available on demand at any time",
-        "New Sky Originals every month"
+        "All Saturday Bundesliga games live and exclusive",
+        "All games of the 2nd Bundesliga live",
+        "All relegation games and the Supercup live"
       ],
       "imgSrc": "/images/football.jpg"
     },
@@ -44,9 +44,9 @@
       "id": 5,
       "title": "Sports",
       "body": [
-        "Exclusive top series from Sky and HBO",
-        "Large selection of complete series and documentation available on demand at any time",
-        "New Sky Originals every month"
+        "All Formula 1 races live - exclusively on Sky",
+        "All DFB Cup games individually and live in the Original Sky Conference",
+        "All Premier League games exclusively, including over 250 live games"
       ],
       "imgSrc": "/images/sports.jpg"
     },

@@ -21,7 +21,6 @@ export const getStaticProps = async (context) => {
   const id = context.params.id;
   const res = await fetch(`http://localhost:3002/skyPackages/${id}`);
   const skyPackages = await res.json();
-  console.log(skyPackages);
 
   return {
     props: {
@@ -42,7 +41,7 @@ export default function PostDetail({ id, skyPackages }) {
         imageUrl={skyPackages.imgSrc}
         title={skyPackages.title}
         cardBody={skyPackages.body}
-        cardType="postDetail"
+        cardType="cardInDetail"
         buttonText="Back to Sky Packages"
         buttonClickHandler={backBtnHandler}
         width="300px"

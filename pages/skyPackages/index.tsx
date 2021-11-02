@@ -4,21 +4,16 @@ import { useDispatch, useSelector } from "react-redux";
 import { StoryCard } from "react-storybook-ui-app";
 import { SkyPackage, wrapper } from "../../redux/skyPackageStore/store";
 
-export const getStaticProps = wrapper.getStaticProps(
-  (store) =>
-    async ({ preview }) => {
-      const res = await fetch("http://localhost:3002/skyPackages/");
-      const skyPackages = await res.json();
-      store.dispatch({ type: "FETCH_SKY_PACKAGES", payload: skyPackages });
+export async function getStaticProps(context) {
+  const res = await fetch("http://localhost:3002/skyPackages/");
+  const skyPackages = await res.json();
 
-      return {
-        props: {
-          skyPackages,
-        },
-        revalidate: 5,
-      };
-    }
-);
+  return {
+    props: {
+      skyPackages,
+    },
+  };
+}
 
 export default function SkyPackages({ skyPackages }) {
   const router = useRouter();
@@ -28,8 +23,6 @@ export default function SkyPackages({ skyPackages }) {
   );
 
   useEffect(() => {
-    console.log("effect", skyPackages);
-
     dispatch({ type: "FETCH_SKY_PACKAGES", payload: skyPackages });
   }, []);
 
@@ -44,7 +37,6 @@ export default function SkyPackages({ skyPackages }) {
       router.push(`/skyPackages/${id}`);
     }
   };
-  console.log("index", state);
   return (
     <div data-testid="cardWrapper" className="cardWrapper">
       {state.skyPackages.map((skyPackage) => (
@@ -54,7 +46,7 @@ export default function SkyPackages({ skyPackages }) {
             title={skyPackage.title}
             imageUrl={skyPackage.imgSrc}
             buttonText="Delete"
-            cardType="postsCard"
+            cardType="SimpleCard"
             height="330px"
             onClickHandler={(e) => onClickHandler(e, skyPackage.id)}
             buttonClickHandler={(e) => onClickHandler(e, skyPackage.id)}
