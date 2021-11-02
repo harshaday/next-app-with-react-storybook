@@ -1,0 +1,64 @@
+{
+  "skyPackages": [
+    {
+      "id": 1,
+      "title": "Entertainment",
+      "body": [
+        "Exclusive top series from Sky and HBO",
+        "Large selection of complete series and documentation available on demand at any time",
+        "New Sky Originals every month"
+      ],
+      "imgSrc": "/images/entertainment.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Entertainment plus",
+      "body": [
+        "Exclusive top series from Sky and HBO",
+        "Large selection of complete series and documentation available on demand at any time",
+        "New Sky Originals every month"
+      ],
+      "imgSrc": "/images/entertainmentPlus.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Cinema",
+      "body": [
+        "Exclusive top series from Sky and HBO",
+        "Large selection of complete series and documentation available on demand at any time",
+        "New Sky Originals every month"
+      ],
+      "imgSrc": "/images/tomjerry2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Football",
+      "body": [
+        "Exclusive top series from Sky and HBO",
+        "Large selection of complete series and documentation available on demand at any time",
+        "New Sky Originals every month"
+      ],
+      "imgSrc": "/images/football.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Sports",
+      "body": [
+        "Exclusive top series from Sky and HBO",
+        "Large selection of complete series and documentation available on demand at any time",
+        "New Sky Originals every month"
+      ],
+      "imgSrc": "/images/sports.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Kids",
+      "body": [
+        "Exclusive top series from Sky and HBO",
+        "Large selection of complete series and documentation available on demand at any time",
+        "New Sky Originals every month"
+      ],
+      "imgSrc": "/images/kids.jpg"
+    }
+  ]
+}
