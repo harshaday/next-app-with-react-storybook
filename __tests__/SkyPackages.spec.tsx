@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-import SkyPackages from "../skyPackages";
+import SkyPackages from "../pages/skyPackages";
 
 const skyPackages = {
   skyPackages: [

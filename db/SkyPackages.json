@@ -49,16 +49,6 @@
         "All Premier League games exclusively, including over 250 live games"
       ],
       "imgSrc": "/images/sports.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Kids",
-      "body": [
-        "Exclusive top series from Sky and HBO",
-        "Large selection of complete series and documentation available on demand at any time",
-        "New Sky Originals every month"
-      ],
-      "imgSrc": "/images/kids.jpg"
     }
   ]
 }
