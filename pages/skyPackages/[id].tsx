@@ -30,7 +30,7 @@ export const getStaticProps = async (context) => {
   };
 };
 
-export default function PostDetail({ id, skyPackages }) {
+export default function PostDetail({ skyPackages }) {
   const router = useRouter();
   const backBtnHandler = () => {
     router.push("/skyPackages");

@@ -2,9 +2,9 @@ import { useRouter } from "next/dist/client/router";
 import React, { MouseEvent, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { StoryCard } from "react-storybook-ui-app";
-import { SkyPackage, wrapper } from "../../redux/skyPackageStore/store";
+import { SkyPackage } from "../../redux/skyPackageStore/store";
 
-export async function getStaticProps(context) {
+export async function getStaticProps() {
   const res = await fetch("http://localhost:3002/skyPackages/");
   const skyPackages = await res.json();
 

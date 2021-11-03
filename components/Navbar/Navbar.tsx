@@ -20,7 +20,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="navItem">
-              <Link href="/posts">
+              <Link href="/skyPackages">
                 <a>Sky Packages</a>
               </Link>
             </li>

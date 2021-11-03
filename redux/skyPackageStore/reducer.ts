@@ -16,8 +16,7 @@ export const skyPackageReducer = (state = InitialState, action) => {
         skyPackages: action.payload,
       };
     case DELETE_SKY_PACKAGES:
-      let updatedPackages = { ...state };
-      updatedPackages = updatedPackages.skyPackages.filter(
+      const updatedPackages = state.skyPackages.filter(
         (pkg) => pkg.id !== action.payload
       );
       deletePosts(action.payload);

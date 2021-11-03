@@ -1,14 +1,14 @@
 module.exports = {
+  distDir: "build",
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {
         fs: false,
       };
     }
-    return config
+    return config;
   },
   images: {
-    domains: ['via.placeholder.com','picsum.photos','source.unsplash.com'],
+    domains: ["via.placeholder.com", "picsum.photos", "source.unsplash.com"],
   },
 };
-
