@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "jsonServer": "json-server db/SkyPackages.json --port 3002",
     "dev": "next",
     "build": "next build",
     "start": "next start",
